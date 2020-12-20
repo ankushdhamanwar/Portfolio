@@ -13,7 +13,7 @@ $(document).ready(function(){
 });
 
 var typed = new Typed(".typing", {
-    strings: ["Python Developer", "Data Structure Enthusiast", "Problem Solver", "Gamer"],
+    strings: ["Python Developer", "Problem Solver", "Gamer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true

@@ -113,6 +113,30 @@ html{
   font-weight: 500;
 }
 
+
+.home .home-content .social-links {
+  margin-top: 40px;
+  display: flex;
+}
+
+.home .home-content .social-links a {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.home .home-content .social-links a:hover {
+  background: #c3073f;
+}
+
 /* About Styling */
 section{
   padding: 100px 0;
@@ -143,7 +167,7 @@ section .title::before{
 }
 
 .about .about-content, 
-.education .edu-content, 
+.education .edu-content,
 .contact .contact-content{
   display: flex;
   flex-wrap: wrap;
@@ -174,6 +198,10 @@ section .title::before{
 .education{
   color: #fff;
   background: #111;
+}
+
+.education .edu-content{
+  margin-bottom: 40px;
 }
 
 .education .title::before{
@@ -216,6 +244,45 @@ section .title::before{
   margin: 10px 0 7px 0;
 }
 
+/* Project Section Styling */
+.projects .title{
+  margin-bottom: 10px;
+}
+.projects .title::before{
+  width: 170px;
+  margin-left: -15px;
+}
+
+.projects .projects-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects .projects-content .card{
+  width: calc(90%);
+  background: #fff;
+  text-align: left;
+  border-radius: 6px;
+  padding: 20px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-bottom: -15px;
+}
+
+.projects .projects-content .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.projects .projects-content .card .time{
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+
 /* Skills Section Styling */
 .skills{
   color: #fff;
@@ -223,6 +290,8 @@ section .title::before{
 }
 
 .skills .title::before{
+  width: 110px;
+  margin-left: -45px;
   background: #fff;
 }
 
@@ -230,6 +299,11 @@ section .title::before{
 .contact .contact-content .column{
   width: calc(50%-30px);
 }
+.contact .title::before{
+  width: 260px;
+  margin-left: 25px;
+} 
+
 .contact .contact-content .text{
   font-size: 20px;
   font-weight: 600;
